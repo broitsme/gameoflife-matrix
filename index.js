@@ -1,5 +1,5 @@
 /*intializing board of size 1000X1000*/
-let boardSize = 50;
+let boardSize = 100;
 let future;
 let board;
 ( function () {
