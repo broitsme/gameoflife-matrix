@@ -1,0 +1,26 @@
+#board-container{
+    border:  rgb(73, 72, 75) solid 2px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    width: 1000px;
+    height: 1000px;
+}
+
+.black-grid{
+background-color: black;
+}
+
+.white-grid{
+    background-color: white;
+}
+.grid-block{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.grid-block:hover{
+    width: 10px;
+    height: 10px;
+    background-color: violet;
+}
